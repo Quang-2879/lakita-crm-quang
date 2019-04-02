@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 30, 2017, 9:45:14 AM
+    Author     : Phạm Ngọc Chuyển <chuyenpn at lakita.vn>
+*/
+
+.flip-clock-divider.days,
+.flip-clock-divider.hours,
+.flip-clock-divider.minutes,
+.flip-clock ul:nth-child(1),
+.flip-clock ul:nth-child(2),
+.flip-clock ul:nth-child(3),
+.flip-clock ul:nth-child(4),
+.flip-clock ul:nth-child(5),
+.flip-clock ul:nth-child(6),
+.flip-clock ul:nth-child(7)
+span.minutes .flip-clock-label, 
+span.seconds .flip-clock-label
+{
+    display: none;
+}
+.flip-clock-wrapper ul {
+    margin: 2px;
+}
+
+div.flip-clock{
+    bottom: 0px; 
+    position: fixed; 
+    z-index: 100000000;
+    width: 10%;
+    right: -2%; 
+    zoom: 0.4; 
+    -moz-transform: scale(0.5); 
+    bottom: -2%;
+}

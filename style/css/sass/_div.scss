@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:51:58 PM
+    Author     : CHUYEN
+*/
+
+div{
+    &.pagination{
+        a, strong{
+            background: #7fc185;
+            border: 1px solid #7fc185;
+            border-radius: 3px;
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            color: #fff;
+            margin-right: 3px;
+        }
+        strong{
+            background: #1e5f24;
+            border: 1px solid #1e5f24;
+        }
+    }
+    &.tab-pane{
+        padding-top: 20px;
+    }
+    &.google_chart{
+        margin: 0 auto;
+        &>div>div{
+            margin: 0 auto;
+        }
+    }
+    &.number_paging{
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #2543b2;
+    }
+    &.modal-header{
+        background-color: #0c812d;
+        color: #fff;
+    }
+    &.notifyjs-bootstrap-success {
+        color: #468847;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        background-image: none;
+        text-transform: uppercase;
+    }
+    &.menu, &.menu-item{
+        width: 330px;
+        background: #000;
+        color: #fff;
+        position:absolute;
+        z-index: 999999;
+        display: none;
+        box-shadow: 0 0 10px #713C3C;
+        ul{
+            list-style: none;
+            padding: 0;
+            margin:0;
+            li{
+                padding: 7%;
+                background-color: #1f4c7a;
+                color: #fff;
+                &:hover{
+                    background-color: #F7BA4B;
+                    color: #444343;
+                }
+                i{
+                    font-size: 20px;
+                }
+            }
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    &.main_container{
+        > div.left_col{
+            min-height: 900px;
+        }
+    }
+}

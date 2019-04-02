@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>style/js/common_view/edit_contact.min.js" type="text/javascript"></script>

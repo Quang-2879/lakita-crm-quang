@@ -1,0 +1,637 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	HANOIPOST
+</title><link href="Css/Styledefault1.css" rel="stylesheet" type="text/css" /><link href="Css/menu1/menu.css" rel="stylesheet" type="text/css" /><link href="Css/Contents1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Css/menu1/jquery.js"></script> 
+    <script type="text/javascript" src="Css/menu1/menu.js"></script>
+    <script type="text/javascript" src="Css/menu1/tytabs.jquery.min.js"></script>
+    <link href="Css/Services1.css" rel="stylesheet" type="text/css" /><link href="TEMP/csstem9.css" rel="stylesheet" type="text/css" /><link href="TEMP/temp9/cssdvindex.css" rel="stylesheet" type="text/css" /><link href="Css/slideflash1/skitter.styles.min1.css" type="text/css" media="all" rel="stylesheet" /><link href="Css/slideflash1/skitter.styles1.css" type="text/css" media="all" rel="stylesheet" />
+    <script type="text/javascript" language="javascript" src="js/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.animate-colors-min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $('.box_skitter_large').skitter({
+                theme: 'clean',
+                numbers_align: 'center',
+                progressbar: true,
+                dots: true,
+                preview: true
+            });
+        });
+	</script>
+    
+</head>
+<body style="background-image: url(Images/bg123.jpg)" >
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAPrSiqHRMJVL9SnyaNnS4rpsc1DrlaV/pBAAuvT4avU+/v9hpOavf0j0dC5y5El8RGiI2Wra0bxngMZSMsCYytvJnhnIhNZhGixSflATSPe0A==" />
+    <div id="mainWap" >
+            <div id="headermain">
+                
+<div>
+    <img id="u_temp9_header1_Image1" src="Anpham/2.jpg" width="960" />
+</div>
+            </div>
+            <div style="background-image: url(Images/bgmenu.jpg) ; height:58px">
+                
+  <div id="menu">
+    <ul class="menu">
+        <li><a href="Index.aspx" class="parent"><span>TRANG CHỦ</span></a></li>
+         <li><a href="Indexs.aspx?sf=gioithieu"><span>GIỚI THIỆU</span></a></li>
+         <li><a href="News_News.aspx" class="parent"><span>TIN TỨC</span></a></li>
+        <li><a href="Indexs.aspx?sf=dichvubc" class="parent"><span>DỊCH VỤ</span></a></li>
+         <li><a href="Indexs.aspx?sf=giacuoc" class="parent"><span>GIÁ CƯỚC DỊCH VỤ</span></a></li>
+         <li><a href="Indexs.aspx?sf=khuyenmai" class="parent"><span>KHUYẾN MẠI</span></a></li>
+         <li><a href="Mapbuucuc.aspx" class="parent"><span>GIỜ LÀM VIỆC</span></a></li>
+         <li><a href="Indexs.aspx?sf=hoidap" class="parent"><span>HỎI ĐÁP</span></a></li>
+         <li class="parent"><a href="Indexs.aspx?sf=lienhe"><span>LIÊN HỆ</span></a></li>         
+    </ul>
+</div>
+<div ><a style="visibility:hidden; width:0px" href="http://apycom.com/"></a></div>
+
+            </div>
+            <div>
+                <div id="leftmarque" style="background-image: url(Images/bgmarque22.jpg); height:20px ; margin-top:5px;">
+                    <div id="marquee1">
+                                    <span id="Label2"><b><font face="Arial" color="#0B3861" size="2">Tin mới nhất :</font></b></span>
+                    </div>
+                    <div id="marquee2">
+                                     <img id="Image1" src="Anpham/new.png" height="17" width="30" />
+                    </div>      
+                </div>
+                <div id="rightmarque" style="background-image: url(Images/bgmarque22.jpg); height:20px ; margin-top:5px; width:810px">
+                    <marquee behavior="scroll" direction="left">
+                        <table id="DataList1" cellspacing="0">
+	<tr>
+		<td>
+                                           <span id="DataList1_Label1_0"><b><font face="Arial" color="#0B3861">Bưu điện Thành phố Hà Nội triển khai dịch vụ mới " Chuyển phát nội tỉnh HNP Express - Chuyển phát hộ chiếu, căn cước công dân – Dịch vụ chuyển phát thương mại điện tử"</font></b></span></a>
+                                                       
+                                    </td>
+	</tr>
+</table>
+                    
+                    </marquee>
+                </div>
+            </div>
+            <div id="rightdefault" style="background-image: url(Images/bg.jpg)">
+            
+<div id="Content" >
+    <div id="ContentRow1" style="background-image: url(Anpham/bgdtl.jpg)">
+        <div id="Leftrow1">
+            
+<div id="page">
+		<div id="content">
+			<div class="border_box">
+				<div class="box_skitter box_skitter_large">
+					<ul>
+						<li>
+                          <a href="#cube">
+                          <table id="ctl09_u_display_slide_index1_Slidetext" cellspacing="0">
+	<tr>
+		<td>
+                                                  <a href="News_TEMP9.aspx?id=58"><img id="ctl09_u_display_slide_index1_Slidetext_im_0" align="left" src="uploads/58_hinhanh3.jpg" height="90" width="90" />
+                                    </td>
+	</tr>
+</table>
+                          </a>
+                            <div class="label_text">
+                                <p>
+                                <table id="ctl09_u_display_slide_index1_Slidetitle" cellspacing="0">
+	<tr>
+		<td>
+                                            <div>
+                                                  <a href="News_TEMP9.aspx?id=58">
+                                                  <span id="ctl09_u_display_slide_index1_Slidetitle_Label1_0"><b><font face="Arial" color="#F2F2F2"><div>Lễ ra quân thực hiện đề án cổng thông tin điện tử về liệt sỹ, mộ liệt sỹ và nghĩa trang liệt sỹ trên địa bàn thành phố Hà Nội</div></font></b></span>
+                                                  </a>
+                                            </div>             
+                                        </td>
+	</tr>
+</table>
+                                </p>
+                            </div>
+                        </li>
+						<li>
+                          <a href="#cubeRandom">
+                          <table id="ctl09_u_display_slide_index1_Slidetext2" cellspacing="0">
+	<tr>
+		<td>
+                                                  <img id="ctl09_u_display_slide_index1_Slidetext2_im_0" align="left" class="cubeRandom" src="uploads/57_toroi2.jpg" height="90" width="90" />
+                                    </td>
+	</tr>
+</table>
+                          </a>
+                          <div class="label_text">
+                                <p>
+                                <table id="ctl09_u_display_slide_index1_Slidetitle2" cellspacing="0">
+	<tr>
+		<td>
+                                            <div>
+                                                  <a href="News_TEMP9.aspx?id=57">
+                                                  <span id="ctl09_u_display_slide_index1_Slidetitle2_Label1_0"><b><font face="Arial" color="#F2F2F2"><div>&nbsp;Chương trình tặng cước khách hàng sử dụng dịch vụ EMS - HNP</div></font></b></span>
+                                                  </a>
+                                            </div>             
+                                        </td>
+	</tr>
+</table>
+                                </p>
+                            </div>
+                        </li>
+						<li>
+                            <a href="#block">
+                            <table id="ctl09_u_display_slide_index1_Slidetext3" cellspacing="0">
+	<tr>
+		<td>
+                                                      <img id="ctl09_u_display_slide_index1_Slidetext3_im_0" align="left" class="cubeRandom" src="uploads/56_anh.jpg" height="90" width="90" />
+                                        </td>
+	</tr>
+</table>
+                            </a>
+                            <div class="label_text">
+                                <p>
+                                <table id="ctl09_u_display_slide_index1_Slidetitle3" cellspacing="0">
+	<tr>
+		<td>
+                                            <div>
+                                                  <a href="News_TEMP9.aspx?id=56">
+                                                  <span id="ctl09_u_display_slide_index1_Slidetitle3_Label1_0"><b><font face="Arial" color="#F2F2F2"><div>Nhiều khuyến mãi hấp dẫn khi sử dụng dịch vụ ePacket và bưu kiện quốc tế</div></font></b></span>
+                                                  </a>
+                                            </div>             
+                                        </td>
+	</tr>
+</table>
+                                </p>
+                            </div>
+                        </li>
+						<li>
+                            <a href="#cubeStop">
+                                <table id="ctl09_u_display_slide_index1_Slidetext4" cellspacing="0">
+	<tr>
+		<td>
+                                                      <img id="ctl09_u_display_slide_index1_Slidetext4_im_0" align="left" class="cubeRandom" src="uploads/50tbao.jpg" height="90" width="90" />
+                                        </td>
+	</tr>
+</table>
+                            </a>
+                     <div class="label_text">
+                                <p>
+                                <table id="ctl09_u_display_slide_index1_Slidetitle4" cellspacing="0">
+	<tr>
+		<td>
+                                            <div>
+                                                  <a href="News_TEMP9.aspx?id=55">
+                                                  <span id="ctl09_u_display_slide_index1_Slidetitle4_Label1_0"><b><font face="Arial" color="#F2F2F2"><div>&nbsp;Công khai thông tin bưu gửi không phát được</div></font></b></span>
+                                                  </a>
+                                            </div>             
+                                        </td>
+	</tr>
+</table>
+                                </p>
+                            </div>
+                        </li>	
+					    <li>
+                            <a href="#block">
+                                <table id="ctl09_u_display_slide_index1_Slidetext5" cellspacing="0">
+	<tr>
+		<td>
+                                                      <img id="ctl09_u_display_slide_index1_Slidetext5_im_0" align="left" class="cubeRandom" src="uploads/image/tintuc/54_1.jpg" height="90" width="90" />
+                                        </td>
+	</tr>
+</table>
+                            </a>
+                             <div class="label_text">
+                                <p>
+                                <table id="ctl09_u_display_slide_index1_Slidetitle5" cellspacing="0">
+	<tr>
+		<td>
+                                            <div>
+                                                  <a href="News_TEMP9.aspx?id=54">
+                                                  <span id="ctl09_u_display_slide_index1_Slidetitle5_Label1_0"><b><font face="Arial" color="#F2F2F2"><div>Công bố Quyết định thành lập các Bưu điện Trung tâm, Trung tâm TMĐT và bổ nhiệm cán bộ</div></font></b></span>
+                                                  </a>
+                                            </div>             
+                                        </td>
+	</tr>
+</table>
+                                </p>
+                            </div>
+                        </li>
+						<li>
+                            <a href="#cubeStop">
+                               <table id="ctl09_u_display_slide_index1_Slidetext6" cellspacing="0">
+	<tr>
+		<td>
+                                                      <img id="ctl09_u_display_slide_index1_Slidetext6_im_0" align="left" class="cubeRandom" src="uploads/image/tintuc/53_1.jpg" height="90" width="90" />
+                                        </td>
+	</tr>
+</table>
+                            </a>
+                        <div class="label_text">
+                                <p>
+                                <table id="ctl09_u_display_slide_index1_Slidetitle6" cellspacing="0">
+	<tr>
+		<td>
+                                            <div>
+                                                  <a href="News_TEMP9.aspx?id=53">
+                                                  <span id="ctl09_u_display_slide_index1_Slidetitle6_Label1_0"><b><font face="Arial" color="#F2F2F2">Lễ b&agrave;n giao Trung t&acirc;m Khai th&aacute;c Bưu ch&iacute;nh Quốc tế trực thuộc Bưu điện th&agrave;nh phố H&agrave; Nội sang C&ocirc;ng ty Vận chuyển Kho vận Bưu điện</font></b></span>
+                                                  </a>
+                                            </div>             
+                                        </td>
+	</tr>
+</table>
+                                </p>
+                            </div>
+                        </li>	
+                    </ul>
+				</div>
+			</div>
+		</div>
+</div>
+        </div>
+        <div id="Rightrow1"  >
+                <table id="ctl09_DataList1" cellspacing="0">
+	<tr>
+		<td>
+                                    <div id="row1">
+                                        <div id="img" style="margin-bottom:8px;">
+                                            <a href="News_TEMP9.aspx?id=58"><img id="ctl09_DataList1_im_0" align="left" src="uploads/58_hinhanh3.jpg" height="90" width="90" /></a>
+                                        </div>
+                                        <div id="title" style="margin-bottom:8px;">
+                                            <div>
+                                                <a href="News_TEMP9.aspx?id=58">
+                                                <span id="ctl09_DataList1_Label1_0" style="display:inline-block;"><b><font face="Arial" color="#EEE94A"><div>Lễ ra quân thực hiện đề án cổng thông tin điện tử về liệt sỹ, mộ liệt sỹ và nghĩa trang liệt sỹ trên địa bàn thành phố Hà Nội</div></font></b></span></a>
+                                            </div>
+                                            <div>
+                                                <span id="ctl09_DataList1_Label2_0" style="display:inline-block;"><font face="Arial" color="#FAFAFA"><div>Lễ ra quân thực hiện đề án cổng thông tin điện tử về liệt sỹ, mộ liệt sỹ và nghĩa trang liệt sỹ trên địa bàn thành phố Hà Nội</div></font></span>
+                                             </div> 
+                                        </div>
+                                    </div>
+                                              
+                        </td>
+	</tr><tr>
+		<td>
+                                    <div id="row1">
+                                        <div id="img" style="margin-bottom:8px;">
+                                            <a href="News_TEMP9.aspx?id=57"><img id="ctl09_DataList1_im_1" align="left" src="uploads/57_toroi2.jpg" height="90" width="90" /></a>
+                                        </div>
+                                        <div id="title" style="margin-bottom:8px;">
+                                            <div>
+                                                <a href="News_TEMP9.aspx?id=57">
+                                                <span id="ctl09_DataList1_Label1_1" style="display:inline-block;"><b><font face="Arial" color="#EEE94A"><div>&nbsp;Chương trình tặng cước khách hàng sử dụng dịch vụ EMS - HNP</div></font></b></span></a>
+                                            </div>
+                                            <div>
+                                                <span id="ctl09_DataList1_Label2_1" style="display:inline-block;"><font face="Arial" color="#FAFAFA"><div>Chương trình tặng cước khách hàng sử dụng dịch vụ EMS - HNP</div></font></span>
+                                             </div> 
+                                        </div>
+                                    </div>
+                                              
+                        </td>
+	</tr><tr>
+		<td>
+                                    <div id="row1">
+                                        <div id="img" style="margin-bottom:8px;">
+                                            <a href="News_TEMP9.aspx?id=56"><img id="ctl09_DataList1_im_2" align="left" src="uploads/56_anh.jpg" height="90" width="90" /></a>
+                                        </div>
+                                        <div id="title" style="margin-bottom:8px;">
+                                            <div>
+                                                <a href="News_TEMP9.aspx?id=56">
+                                                <span id="ctl09_DataList1_Label1_2" style="display:inline-block;"><b><font face="Arial" color="#EEE94A"><div>Nhiều khuyến mãi hấp dẫn khi sử dụng dịch vụ ePacket và bưu kiện quốc tế</div></font></b></span></a>
+                                            </div>
+                                            <div>
+                                                <span id="ctl09_DataList1_Label2_2" style="display:inline-block;"><font face="Arial" color="#FAFAFA"><div>Nhiều khuyến mãi hấp dẫn khi sử dụng dịch vụ ePacket và bưu kiện quốc tế</div></font></span>
+                                             </div> 
+                                        </div>
+                                    </div>
+                                              
+                        </td>
+	</tr><tr>
+		<td>
+                                    <div id="row1">
+                                        <div id="img" style="margin-bottom:8px;">
+                                            <a href="News_TEMP9.aspx?id=55"><img id="ctl09_DataList1_im_3" align="left" src="uploads/50tbao.jpg" height="90" width="90" /></a>
+                                        </div>
+                                        <div id="title" style="margin-bottom:8px;">
+                                            <div>
+                                                <a href="News_TEMP9.aspx?id=55">
+                                                <span id="ctl09_DataList1_Label1_3" style="display:inline-block;"><b><font face="Arial" color="#EEE94A"><div>&nbsp;Công khai thông tin bưu gửi không phát được</div></font></b></span></a>
+                                            </div>
+                                            <div>
+                                                <span id="ctl09_DataList1_Label2_3" style="display:inline-block;"><font face="Arial" color="#FAFAFA"><div>&nbsp;Công khai thông tin bưu gửi không phát được</div></font></span>
+                                             </div> 
+                                        </div>
+                                    </div>
+                                              
+                        </td>
+	</tr>
+</table>
+        </div>
+    </div> 
+    <div id="Service">
+        
+<style type="text/css">
+    .hovergallery img{
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8); 
+    -o-transform:scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    opacity: 0.7; 
+    margin: 0 10px 5px 0;
+    }
+    .hovergallery img:hover{
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+    box-shadow:0px 0px 30px gray;
+    -webkit-box-shadow:0px 0px 30px gray;
+    -moz-box-shadow:0px 0px 30px gray;
+    opacity: 1;
+    }
+    </style>
+<div id="Serrow">
+    <div id="ServiceRow1" class="hovergallery" >
+       <div><a href="Indexs.aspx?sf=dichvubc&df=chuyenphat"><img id="ctl09_u_temp_temp9_control1_Image1" src="Anpham/137x137.png" width="120" /></a></div>
+       <div>&nbsp;&nbsp;<span id="ctl09_u_temp_temp9_control1_Label1"><b><font face="Arial" color="#B45F04">BƯU CHÍNH CHUYỂN PHÁT</font></b></span></div>                       
+    </div>
+    <div class="hovergallery" id="ServiceRow2">  
+       <div><a href="Indexs.aspx?sf=dichvubc&df=taichinh"><img id="ctl09_u_temp_temp9_control1_Image2" src="Anpham/tai-chinh.png" width="120" /></a></div>  
+       <div>&nbsp;&nbsp;&nbsp;<span id="ctl09_u_temp_temp9_control1_Label2"><b><font face="Arial" color="#B45F04">TÀI CHÍNH BƯU CHÍNH</font></b></span></div>                      
+    </div>
+    <div class="hovergallery" id="ServiceRow3">
+       <div><a href="Indexs.aspx?sf=dichvubc&df=vtcntt"><img id="ctl09_u_temp_temp9_control1_Image3" src="Anpham/global1.png" width="120" /></a></div>     
+       <div style="margin-left:15px;"><span id="ctl09_u_temp_temp9_control1_Label3"><b><font face="Arial" color="#B45F04">VIỄN THÔNG - CNTT</font></b></span></div>                   
+    </div>
+    <div class="hovergallery" id="ServiceRow4">
+       <div><a href="Indexs.aspx?sf=dichvubc&df=dvkhac"><img id="ctl09_u_temp_temp9_control1_Image4" src="Anpham/mail.png" width="120" /></a></div>    
+       <div style="margin-left:25px;"><span id="ctl09_u_temp_temp9_control1_Label4"><b><font face="Arial" color="#B45F04">DỊCH VỤ KHÁC</font></b></span></div>                       
+    </div>
+    <div>
+    
+<div id="bccp">
+    <div id="o1">
+        <table id="ctl09_u_temp_temp9_control1_ctl00_dtl01" cellspacing="0">
+	<tr>
+		<td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=8         "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_0" align="left" src="uploads/88uythac1.jpg" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=8         ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_0" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>Dịch vụ Logistic</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_0" style="display:inline-block;"><font face="Arial" color="#424242"><p>Dịch vụ Logistic &nbsp;l&agrave; &nbsp;dịch &nbsp;vụ m&agrave; kh&aacute;ch</p>
+<p>h&agrave;ng thỏa thuận ủy quyền cho Bưu điện</p>
+<p>thực &nbsp;hiện &nbsp;một &nbsp;phần &nbsp;hoặc to&agrave;n bộ việc</p>
+<p>nhận gửi, vận chuyển v&agrave; ph&aacute;t ...</p></font></span>
+                                </div> 
+                            </div>  
+                         </td><td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=1         "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_4" align="left" src="uploads/111112emss.png" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=1         ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_4" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>EMS&nbsp;</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_4" style="display:inline-block;"><font face="Arial" color="#424242"><p>Chuyển ph&aacute;t nhanh EMS l&agrave; dịch vụ nhận</p>
+<p>gửi, vận chuyển &nbsp;v&agrave; &nbsp;ph&aacute;t c&aacute;c loại thư, t&agrave;i</p>
+<p>liệu, vật &nbsp;phẩm &nbsp;h&agrave;ng &nbsp;h&oacute;a &nbsp;theo &nbsp;chỉ &nbsp;ti&ecirc;u&nbsp;</p>
+<p>thời gian được c&ocirc;ng bố trước.</p></font></span>
+                                </div> 
+                            </div>  
+                         </td>
+	</tr><tr>
+		<td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=4         "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_1" align="left" src="uploads/20buukienday1.jpg" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=4         ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_1" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>Dịch vụ Bưu phẩm.</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_1" style="display:inline-block;"><font face="Arial" color="#424242"><p>Dịch vụ Bưu phẩm gồm :&nbsp;</p>
+<p>Thư: L&agrave; bản chữ viết, sao hoặc in mang</p>
+<p>nội dung th&ocirc;ng tin ri&ecirc;ng giữa người gửi&nbsp;</p>
+<p>v&agrave; người nhận. Thư được d&aacute;n k&iacute;n v&agrave; ....</p></font></span>
+                                </div> 
+                            </div>  
+                         </td><td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=7         "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_5" align="left" src="uploads/7715phathhangthutien.jpg" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=7         ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_5" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>Dịch vụ ph&aacute;t h&agrave;ng thu tiền.</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_5" style="display:inline-block;"><font face="Arial" color="#424242"><p>Dịch vụ Ph&aacute;t h&agrave;ng thu tiền ( COD ) được</p>
+<p>sử&nbsp;dụng k&egrave;m với c&aacute;c dịch vụ Bưu ch&iacute;nh</p>
+<p>chuyển&nbsp;ph&aacute;t để ủy th&aacute;c cho Bưu điện thu</p>
+<p>hộ một&nbsp;khoản tiền của người nhận ...&nbsp;</p></font></span>
+                                </div> 
+                            </div>  
+                         </td>
+	</tr><tr>
+		<td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=20        "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_2" align="left" src="uploads/44buukien1.jpg" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=20        ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_2" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>Dịch vụ &nbsp;Bưu kiện</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_2" style="display:inline-block;"><font face="Arial" color="#424242"><p>Dịch vụ Bưu kiện &nbsp;l&agrave; những kiện h&agrave;ng</p>
+<p>chữa vật phẩm, h&agrave;ng h&oacute;a. K&iacute;ch thước</p>
+<p>lớn nhất :chiều d&agrave;i cộng với chu vi lớn</p>
+<p>nhất kh&ocirc;ng đo theo chiều d&agrave;i đ&atilde; đo...</p></font></span>
+                                </div> 
+                            </div>  
+                         </td><td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=5         "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_6" align="left" src="uploads/55phatkhongdiachi.jpg" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=5         ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_6" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>Bưu phẩm kh&ocirc;ng địa chỉ.</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_6" style="display:inline-block;"><font face="Arial" color="#424242"><p>L&agrave; dịch vụ chuyển ph&aacute;t c&aacute;c bưu phẩm</p>
+<p>trong đ&oacute; người gửi kh&ocirc;ng ấn định chi</p>
+<p>tiết địa chỉ người nhận m&agrave; chỉ ấn định</p>
+<p>đối tượng kh&aacute;ch h&agrave;ng v&agrave; khu vực ph&aacute;t...</p></font></span>
+                                </div> 
+                            </div>  
+                         </td>
+	</tr><tr>
+		<td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=21        "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_3" align="left" src="uploads/baochi.jpg" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=21        ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_3" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>&nbsp;Dịch vụ ph&aacute;t h&agrave;nh b&aacute;o ch&iacute;</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_3" style="display:inline-block;"><font face="Arial" color="#424242"><p>Ph&aacute;t h&agrave;nh b&aacute;o ch&iacute; l&agrave; dịch vụ nhận đặt</p>
+<p>mua &nbsp;v&agrave; chuyển, ph&aacute;t &quot;b&aacute;o ch&iacute; in&quot; xuất</p>
+<p>bản trong&nbsp;nước v&agrave; b&aacute;o ch&iacute; nước ngo&agrave;i</p>
+<p>nhập khẩu v&agrave;o&nbsp;Việt Nam...</p></font></span>
+                                </div> 
+                            </div>  
+                         </td><td>
+                            <div id="o1img">
+                                <a href="DetailTemp9.aspx?id=2         "><img id="ctl09_u_temp_temp9_control1_ctl00_dtl01_im_7" align="left" src="uploads/223232povnquickop.png" height="90" width="90" /></a>
+                            </div>
+                            <div id="o1txt">
+                                <div>
+                                                <a href="DetailTemp9.aspx?id=2         ">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label1_7" style="display:inline-block;"><b><font face="Arial" color="#2E2E2E"><p>VNQuickPost</p></font></b></span></a>
+                                </div>
+                                <div style="margin-bottom:15px;">
+                                                <span id="ctl09_u_temp_temp9_control1_ctl00_dtl01_Label2_7" style="display:inline-block;"><font face="Arial" color="#424242"><p>Dịch vụ&nbsp; VN&nbsp; QuickPost&nbsp; l&agrave; dịch vụ&nbsp;chuyển</p>
+<p>ph&aacute;t nhanh đi quốc tế của&nbsp;Bưu ch&iacute;nh Việt</p>
+<p>Nam hợp &nbsp;t&aacute;c &nbsp;với&nbsp;C&ocirc;ng &nbsp;ty &nbsp;TNHH DHL -</p>
+<p>VNPT.</p></font></span>
+                                </div> 
+                            </div>  
+                         </td>
+	</tr>
+</table>
+    </div>
+</div>
+    </div>
+</div>
+
+<div id="adventis">
+    <div>
+        <a href="http://www.buudienhanoi.com.vn/bhxh"><img id="ctl09_u_temp_temp9_control1_Image3222" src="Anpham/siZr20.gif" width="237" /></a>
+    </div>
+    <div>
+        <input type="image" name="ctl09$u_temp_temp9_control1$ImageButton1" id="ctl09_u_temp_temp9_control1_ImageButton1" src="Anpham/hotline.png" />
+    </div>
+    <div style="margin-top:10px;">
+        <input type="image" name="ctl09$u_temp_temp9_control1$ImageButton2" id="ctl09_u_temp_temp9_control1_ImageButton2" src="Anpham/madcbc.png" />
+    </div>
+    <div style="margin-top:5px;">
+    &nbsp;
+<div>
+    <div style="text-align:center">
+        <img alt="" src="../../../../Images/trangchu/vnpost-logo.png" />
+    </div>
+    <div>&nbsp;</div>
+    
+</div>
+<div>
+    <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td>
+            
+                    <table id="ctl09_u_temp_temp9_control1_u_display_sanphambuuchinh_flash1_dlqc" cellspacing="0" bordercolor="Gray">
+	<tr>
+		<td>
+                    <div style="-moz-box-shadow:0px 0px 10px #999;-webkit-box-shadow:0px 0px 10px #999;">
+                          <a href="Detail.aspx?id=1"><img id="ctl09_u_temp_temp9_control1_u_display_sanphambuuchinh_flash1_dlqc_im_0" align="left" src="uploads/11dvphbc.gif" border="1" height="80" width="222" /></a>
+                    </div>          
+                    </td>
+	</tr><tr>
+		<td>
+                    <div style="-moz-box-shadow:0px 0px 10px #999;-webkit-box-shadow:0px 0px 10px #999;">
+                          <a href="Detail.aspx?id=2"><img id="ctl09_u_temp_temp9_control1_u_display_sanphambuuchinh_flash1_dlqc_im_1" align="left" src="uploads/22dv_tietkiembuudien.gif" border="1" height="80" width="222" /></a>
+                    </div>          
+                    </td>
+	</tr><tr>
+		<td>
+                    <div style="-moz-box-shadow:0px 0px 10px #999;-webkit-box-shadow:0px 0px 10px #999;">
+                          <a href="Detail.aspx?id=3"><img id="ctl09_u_temp_temp9_control1_u_display_sanphambuuchinh_flash1_dlqc_im_2" align="left" src="uploads/33dv_buuchinhuythac.gif" border="1" height="80" width="222" /></a>
+                    </div>          
+                    </td>
+	</tr><tr>
+		<td>
+                    <div style="-moz-box-shadow:0px 0px 10px #999;-webkit-box-shadow:0px 0px 10px #999;">
+                          <a href="Detail.aspx?id=4"><img id="ctl09_u_temp_temp9_control1_u_display_sanphambuuchinh_flash1_dlqc_im_3" align="left" src="uploads/44dv_chuyentien.gif" border="1" height="80" width="222" /></a>
+                    </div>          
+                    </td>
+	</tr>
+</table>
+                    </td>
+                </tr>
+            </table>
+</div>
+
+
+    </div>
+    <div>
+         <a href="http://www.buudienhanoi.com.vn/bhxh"><span id="ctl09_u_temp_temp9_control1_Label4111"><b><font face="Arial" color="#B45F04">TIẾP NHẬN HỒ SƠ BHXH</font></b></span></a>
+    </div>
+</div>
+    </div>
+</div>
+            <div>
+                
+<div id="marquefooter">
+<marquee behavior="scroll" scrollamount="3" direction="left" width="960px">
+<A href="#"><img id="u_display_marqueefooter1_Image1" src="MarqueeFooter/1.jpg" height="70" width="150" /></A> 
+<A href="#"><img id="u_display_marqueefooter1_Image2" src="MarqueeFooter/2.jpg" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image3" src="MarqueeFooter/3.jpg" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image4" src="MarqueeFooter/4.png" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image5" src="MarqueeFooter/5.jpg" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image6" src="MarqueeFooter/6.jpg" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image7" src="MarqueeFooter/7.png" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image8" src="MarqueeFooter/8.png" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image9" src="MarqueeFooter/9.png" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image10" src="MarqueeFooter/10.png" height="70" width="150" /></A>
+<A href="#"><img id="u_display_marqueefooter1_Image11" src="MarqueeFooter/11.jpg" height="70" width="150" /></A>
+</marquee>
+</div>
+            </div> 
+            </div>
+            <div class="clr"></div> 
+            <div id="footer"> 
+                
+<div style="background-image: url(Images/Footer.jpg)">
+    <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+             <td style="width: 136px">
+                 &nbsp;<img id="u_display_footer1_Image1" src="Images/Logo.jpg" height="104" width="109" />
+             </td>
+             <td style="width: 85px">
+                 <br />
+                 <span id="u_display_footer1_Label1"><b><font face="Arial" color="White" size="3">BƯU ĐIỆN THÀNH PHỐ HÀ NỘI</font></b></span><br />
+                 <span id="u_display_footer1_Label2" style="display:inline-block;"><font face="Arial" color="White" size="3">75 Đinh Tiên Hoàng, Hoàn Kiếm, Thành phố Hà Nội </font></span><br />
+                 <span id="u_display_footer1_Label3" style="display:inline-block;"><font face="Arial" color="White" size="3">Điện thoại: (84.24) 38254403   Fax: (84.24) 38243973</font></span><br />
+                 <br />
+                 <span id="u_display_footer1_Label7"><font face="Arial" color="White" size="3">Designed By HNPOST</font></span><br />
+                 <span id="u_display_footer1_Label4"><font face="Arial" color="White" size="3">© Copyright 2013 by Hanoipost</font></span><br />
+                  <span id="u_display_footer1_Label5"><font face="Arial" color="White">Mọi đóng góp xin gửi về Email:cskh.bdhn@vnpost.vn</font></span><br />
+                 <br />
+             </td>
+            
+        </tr>
+    </table>
+</div>
+            </div>
+            </div>
+            
+        </div>
+        
+    </form>
+</body>
+</html>

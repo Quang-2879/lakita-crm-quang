@@ -1,0 +1,1 @@
+<?php $this->load->view('manager/common/menu');

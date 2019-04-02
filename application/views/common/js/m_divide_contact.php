@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>style/js/manager/divide_contact.min.js"></script>

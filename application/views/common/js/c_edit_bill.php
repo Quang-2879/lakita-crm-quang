@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>style/js/cod/edit_bill.min.js" type="text/javascript"></script>

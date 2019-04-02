@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>style/js/sale/show_script.min.js"></script>

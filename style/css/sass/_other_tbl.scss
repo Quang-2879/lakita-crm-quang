@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:51:30 PM
+    Author     : CHUYEN
+*/
+
+table{
+    &.view_report{
+        td{
+            text-align: center;
+        }
+    }
+    &.call-log{
+        table-layout: fixed;
+        th{
+            border: 1px solid rgba(121, 120, 120, 0.39) !important;
+            color:#000;
+            background-color: rgba(88, 90, 90, 0.23);
+        }
+        td{
+            border: 1px solid rgba(121, 120, 120, 0.39) !important;
+        }
+        th.content-change{
+            width: 20%;
+        }
+    }
+    &.tbl-note{
+        table-layout: fixed;
+        th{
+            background-color: #2d7769;
+            &:nth-child(2){
+                width: 52px;
+            }
+        }
+    }
+    &.filter-contact{
+        select, input[type='text'] {
+            width: 100% !important;
+            padding: 18px 10px;
+        }
+    }
+    &.table-view-2{
+        table-layout: fixed;
+        tr> td:first-child{
+            width: 150px;
+        }
+    }
+    &.table-view-1{
+        @extend .table-view-2;
+    }
+    td.click_see{
+        cursor: pointer;
+    }
+    thead{
+        &.table-head-pos{
+            th.tbl_marketing_course_code, th.tbl_marketer_course_code{
+                width: 27px;
+            }
+            th.tbl_marketing_price_purchase,  th.tbl_marketer_price_purchase{
+                width: 30px;
+            }
+            th.tbl_marketing_phone,  th.tbl_marketer_phone{
+                width: 40px;
+            }
+            th.tbl_marketing_name, th.tbl_marketing_date_rgt, th.tbl_marketer_name, th.tbl_marketer_date_rgt{
+                width: 45px;
+            }
+        }
+    }
+}
+input[type=checkbox]
+{
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    padding: 7px;
+    cursor: pointer;
+}
+.daterangepicker td, .daterangepicker th{
+    border-radius: 0px !important;
+}
+.modal-backdrop{
+    z-index: 5;
+}
+
+#codeigniter_profiler{
+    z-index: 9;
+    position: relative;
+}
+
+img.logo-fix{
+    width: 180px;
+    float: left;
+    margin-right: 35px;
+    margin-left: 10px;
+}

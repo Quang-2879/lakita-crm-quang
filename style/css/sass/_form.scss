@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:52:39 PM
+    Author     : CHUYEN
+*/
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+form.form-search{
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    input{
+        width: 50%;
+        float: left;
+        padding: 20px;
+    }
+    .btn{
+        padding: 10px;
+    }
+}

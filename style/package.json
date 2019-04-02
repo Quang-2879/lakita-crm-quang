@@ -1,0 +1,15 @@
+{
+  "name": "gruntjs1",
+  "devDependencies": {
+    "@types/jquery": "^3.2.12",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-obfuscator": "^4.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-obfuscator": "^0.1.0",
+    "grunt-typescript": "^0.8.0"
+  }
+}

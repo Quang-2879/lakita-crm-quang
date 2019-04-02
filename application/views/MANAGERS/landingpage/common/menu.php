@@ -1,0 +1,1 @@
+<?php $this->load->view('marketing/common/menu');

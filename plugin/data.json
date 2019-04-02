@@ -1,0 +1,18 @@
+{
+  "cols": [
+        {"id":"","label":"","pattern":"","type":"string"},
+        {"id":"","label":"Framework","pattern":"","type":"number"}
+      ],
+  "rows": [
+        {"c":[{"v":"Laravel","f":null},{"v":60,"f":null}]},
+        {"c":[{"v":"Symfony2","f":null},{"v":100,"f":null}]},
+        {"c":[{"v":"Nette","f":null},{"v":70,"f":null}]},
+        {"c":[{"v":"Yii 2","f":null},{"v":60,"f":null}]},
+        {"c":[{"v":"CodeIgniter","f":null},{"v":48,"f":null}]},
+        {"c":[{"v":"PHPixie","f":null},{"v":42,"f":null}]},
+        {"c":[{"v":"Zend 2","f":null},{"v":34,"f":null}]},
+        {"c":[{"v":"No Framework","f":null},{"v":30,"f":null}]},
+        {"c":[{"v":"Yii 1","f":null},{"v":29,"f":null}]},
+        {"c":[{"v":"Phalcon","f":null},{"v":23,"f":null}]}
+      ]
+} 

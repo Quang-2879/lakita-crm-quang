@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "sass/define";
+@import "sass/config";
+@import "sass/popup";
+@import "sass/common_table";
+@import "sass/tbl_list_contact";
+@import "sass/other_tbl";
+@import "sass/div";
+@import "sass/form";
+@import "sass/_span.scss";
+@import "sass/ul";
+@import "sass/bootstrap_component";
+@import "sass/sale";
+body{
+    background-color: #EBEBEB; 
+    overflow-x: hidden;
+}
+

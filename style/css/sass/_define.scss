@@ -1,0 +1,276 @@
+.displayblock{
+    display: block;
+}
+.displayinlineblock{
+display: inline-block;
+}
+.positionRelative{
+    position: relative;
+}
+
+.margintop5{
+    margin-top:5px;
+}
+.margintop10{
+    margin-top:10px;
+}
+.margintop20{
+    margin-top:20px;
+}
+.margintop22{
+    margin-top:22px;
+}
+.margintop45{
+    margin-top:45px;
+}
+.marginbottom15{
+    margin-bottom: 15px;
+}
+.marginbottom0{
+    margin-bottom: 0px;
+}
+.marginbottom5{
+    margin-bottom: 5px;
+}
+.marginbottom10{
+    margin-bottom: 10px;
+}
+.marginbottom20{
+    margin-bottom: 20px;
+}
+.marginbottom35{
+    margin-bottom: 35px;
+}
+.marginleft15{
+    margin-left: 15px;
+}
+.marginleft25{
+    margin-left: 15px;
+}
+.marginleft30{
+    margin-left: 30px;
+}
+.marginleft10pt{
+    margin-left: 10%;
+}
+.marginleft30pt{
+    margin-left: 30%;
+}
+.marginleft35pt{
+    margin-left: 35%;
+}
+.padding-10{
+    padding: 10px;
+}
+.paddingtop5{
+    padding-top: 5px;
+}
+.paddingtop10{
+    padding-top: 10px;
+}
+.paddingtop15{
+    padding-top: 15px !important;
+}
+.paddingtop20{
+    padding-top: 20px !important;
+}
+.paddingleft28{
+    padding-left: 28px
+}
+.paddingtop35{
+    padding-top: 35px !important;
+}
+.paddingtop40{
+    padding-top: 40px !important;
+}
+.paddingright0{
+    padding-right: 0px !important;
+}
+.paddingleft0{
+    padding-left: 0px !important;
+}
+.paddingleft10{
+    padding-left: 10px;
+}
+.paddingleft25{
+    padding-left: 25px;
+}
+.paddingleft35{
+    padding-left: 35px;
+}
+.paddingleft42{
+    padding-left: 42px;
+}
+.paddingleft50{
+    padding-left: 50px;
+}
+.paddingleft53{
+    padding-left: 53px;
+}
+.paddingleft56{
+    padding-left: 56px;
+}
+.paddingleft47{
+    padding-left: 47px;
+}
+.paddingleft90{
+    padding-left: 90px;
+}
+.paddingbottom10{
+    padding-bottom: 10px !important;
+}
+.paddingbottom20{
+    padding-bottom: 20px !important;
+}
+.paddingbottom28{
+    padding-bottom: 28px !important;
+}
+.paddingbottom30{
+    padding-bottom: 30px !important;
+}
+.colorlakita{
+    color: #31B051;
+}
+.red{
+    color:red;
+}
+.fontsize14{
+    font-size: 14px
+}
+.fontsize15{
+font-size: 15px;
+}
+.fontsize16{
+    font-size: 16px;
+}
+.fontsize18{
+    font-size: 18px !important;
+}
+.fontsize20{
+    font-size: 20px !important;
+}
+.fontsize30{
+    font-size: 30px !important;
+}
+.fontRobotoBold{
+    font-family: RobotoCondensed-Bold;
+}
+.fontfontRobotoLight{
+     font-family: RobotoCondensed-Light;
+}
+.fontRoboto{
+    font-family: RobotoCondensed-Regular;
+}
+.fontOpenSans{
+     font-family: OpenSans-Regular;
+}
+.white{
+    color:white !important;
+}
+.bgwhite{
+    background-color: #fff !important;
+}
+.clr{clear: both}
+.lakita{
+    color:#31B051;
+}
+.textaligncenter{
+    text-align: center;
+}
+.textunderline, .text-underline{
+        text-decoration: underline;
+}
+.textuppercase{
+    text-transform: uppercase;
+}
+.height-66{
+    height: 66px;
+}
+.height-30{
+    height: 30px;
+}
+.width-30{
+    width: 30px;
+}
+.width-80{
+    width: 80px;
+}
+.height-80{
+    height: 80px;
+}
+.lineheight22{
+    line-height: 22px;
+}
+.bg-red{
+    background-color: red;
+    color: white;
+}
+.pointer{
+    cursor: pointer;
+}
+.width95{
+    width: 95% !important;
+}
+.clr{
+    clear: both;
+}
+.alert-red{
+    background-color: red;
+    color:#fff;
+    margin-top: 50px;
+}
+.has_transfer{
+    font-weight: bold;
+    font-style: italic;
+    color:#0a25b3;
+}
+.reset_datepicker{
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.nav-md .logo{
+    width: 15%
+}
+.nav-sm .logo{
+/*    width: 80%*/
+}
+.btn-duplicate{
+    background-color: #fff;
+    border-color: #fff;
+    color: black;
+}
+.btn-very-lg{
+    width: 1200px;
+}
+.tbl_matrix{
+    font-size: 11px;
+}
+.nav-sm .container.body .col-md-3.left_col, .nav-md .container.body .col-md-3.left_col {
+    -webkit-transition: all 0.3s ease;
+}
+.btn, ul.child_menu li a, ul.side-menu > li{
+    //-webkit-transition: all 0.5s ease;
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;  /* for vertical scrollbars */
+    height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+    background: #ecf8ef;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #31B051;
+    border-radius: 10px;
+}
+.position-relative{
+    position: relative;
+}
+

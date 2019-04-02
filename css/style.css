@@ -1,0 +1,489 @@
+.displayblock {
+  display: block; }
+
+.displayinlineblock {
+  display: inline-block; }
+
+.positionRelative {
+  position: relative; }
+
+.margintop5 {
+  margin-top: 5px; }
+
+.margintop10 {
+  margin-top: 10px; }
+
+.margintop20 {
+  margin-top: 20px; }
+
+.margintop22 {
+  margin-top: 22px; }
+
+.margintop45 {
+  margin-top: 45px; }
+
+.marginbottom15 {
+  margin-bottom: 15px; }
+
+.marginbottom0 {
+  margin-bottom: 0px; }
+
+.marginbottom5 {
+  margin-bottom: 5px; }
+
+.marginbottom10 {
+  margin-bottom: 10px; }
+
+.marginbottom20 {
+  margin-bottom: 20px; }
+
+.marginbottom35 {
+  margin-bottom: 35px; }
+
+.marginleft15 {
+  margin-left: 15px; }
+
+.marginleft25 {
+  margin-left: 15px; }
+
+.marginleft30 {
+  margin-left: 30px; }
+
+.marginleft10pt {
+  margin-left: 10%; }
+
+.marginleft30pt {
+  margin-left: 30%; }
+
+.marginleft35pt {
+  margin-left: 35%; }
+
+.padding-10 {
+  padding: 10px; }
+
+.paddingtop5 {
+  padding-top: 5px; }
+
+.paddingtop10 {
+  padding-top: 10px; }
+
+.paddingtop15 {
+  padding-top: 15px !important; }
+
+.paddingtop20 {
+  padding-top: 20px !important; }
+
+.paddingleft28 {
+  padding-left: 28px; }
+
+.paddingtop35 {
+  padding-top: 35px !important; }
+
+.paddingtop40 {
+  padding-top: 40px !important; }
+
+.paddingright0 {
+  padding-right: 0px !important; }
+
+.paddingleft0 {
+  padding-left: 0px !important; }
+
+.paddingleft10 {
+  padding-left: 10px; }
+
+.paddingleft25 {
+  padding-left: 25px; }
+
+.paddingleft35 {
+  padding-left: 35px; }
+
+.paddingleft42 {
+  padding-left: 42px; }
+
+.paddingleft50 {
+  padding-left: 50px; }
+
+.paddingleft53 {
+  padding-left: 53px; }
+
+.paddingleft56 {
+  padding-left: 56px; }
+
+.paddingleft47 {
+  padding-left: 47px; }
+
+.paddingleft90 {
+  padding-left: 90px; }
+
+.paddingbottom10 {
+  padding-bottom: 10px !important; }
+
+.paddingbottom20 {
+  padding-bottom: 20px !important; }
+
+.paddingbottom28 {
+  padding-bottom: 28px !important; }
+
+.paddingbottom30 {
+  padding-bottom: 30px !important; }
+
+.colorlakita {
+  color: #31B051; }
+
+.red {
+  color: red; }
+
+.fontsize14 {
+  font-size: 14px; }
+
+.fontsize15 {
+  font-size: 15px; }
+
+.fontsize16 {
+  font-size: 16px; }
+
+.fontsize18 {
+  font-size: 18px !important; }
+
+.fontRobotoBold {
+  font-family: RobotoCondensed-Bold; }
+
+.fontfontRobotoLight {
+  font-family: RobotoCondensed-Light; }
+
+.fontRoboto {
+  font-family: RobotoCondensed-Regular; }
+
+.fontOpenSans {
+  font-family: OpenSans-Regular; }
+
+.white {
+  color: white !important; }
+
+.bgwhite {
+  background-color: #fff !important; }
+
+.clr {
+  clear: both; }
+
+.lakita {
+  color: #31B051; }
+
+.textaligncenter {
+  text-align: center; }
+
+.textunderline, .text-underline {
+  text-decoration: underline; }
+
+.textuppercase {
+  text-transform: uppercase; }
+
+.height-66 {
+  height: 66px; }
+
+.height-30 {
+  height: 30px; }
+
+.width-30 {
+  width: 30px; }
+
+.width-80 {
+  width: 80px; }
+
+.height-80 {
+  height: 80px; }
+
+.lineheight22 {
+  line-height: 22px; }
+
+.bg-red {
+  background-color: red;
+  color: white; }
+
+.pointer {
+  cursor: pointer; }
+
+.width95 {
+  width: 95% !important; }
+
+.clr {
+  clear: both; }
+
+.alert-red {
+  background-color: red;
+  color: #fff; }
+
+.has_transfer {
+  font-weight: bold;
+  font-style: italic;
+  color: #0a25b3; }
+
+.reset_datepicker {
+  position: absolute;
+  right: 0;
+  top: 8px; }
+
+.nav-md .logo {
+  width: 15%; }
+
+.nav-sm .logo {
+  width: 80%; }
+
+.btn-duplicate {
+  background-color: #fff;
+  border-color: #fff;
+  color: black; }
+
+.btn-very-lg {
+  width: 1200px; }
+
+.tbl_matrix {
+  font-size: 11px; }
+
+.nav-sm .container.body .col-md-3.left_col, .nav-md .container.body .col-md-3.left_col {
+/*  -webkit-transition: all 1s ease; */
+}
+
+.btn, ul.child_menu li a, ul.side-menu > li {
+/*  -webkit-transition: all 0.5s ease; */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  /* for vertical scrollbars */
+  height: 12px;
+  /* for horizontal scrollbars */ }
+
+::-webkit-scrollbar-track {
+  background: #ecf8ef;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background: #31B051;
+  border-radius: 10px; }
+
+ul.select-sale-active {
+  list-style-type: none; }
+
+.popup-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 8010;
+  background: url("../images/modal_overlay.png"); }
+  .popup-wrapper .popup-loading {
+    background-color: white;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    height: 100%;
+    width: 100%;
+    z-index: 21;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+    .popup-wrapper .popup-loading .loading-container {
+      position: relative;
+      height: 100%;
+      background: url("../images/loading.gif") center center no-repeat; }
+      .popup-wrapper .popup-loading .loading-container span {
+        position: absolute;
+        top: 58%;
+        left: 30%;
+        opacity: 1;
+        z-index: 1000000000000;
+        font-size: 28px;
+        font-weight: bold; }
+
+table {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: float 5s infinite; }
+  table thead.fixed-table {
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    left: 92px; }
+  table th {
+    width: 5%;
+    text-align: center;
+    height: 32px;
+    border: 1px solid #d4d4d4;
+    font-weight: normal;
+    color: #555555;
+    padding: 11px 5px 11px 5px;
+    vertical-align: middle !important;
+    background-color: #0C812D;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease; 
+  }
+    table th:hover {
+      background-color: #0c6681; }
+  table td {
+    height: 32px;
+    border: 1px solid #d4d4d4;
+    font-weight: normal;
+    padding: 11px 5px 11px 5px;
+    vertical-align: middle !important; }
+    table td.search_more {
+      padding: 0px !important; }
+    table td input.search_more {
+      width: 100%;
+      height: 125%;
+      padding-left: 5px;
+      color: #000; }
+  table tr.checked {
+    background-color: #2C944A !important;
+    color: #fff; }
+  table tr.duplicate {
+    background-color: #b54848 !important;
+    color: #fff; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:49:13 PM
+    Author     : CHUYEN
+*/
+table.list_contact {
+  table-layout: fixed; }
+  table.list_contact thead tr th {
+    word-wrap: break-word; }
+    table.list_contact thead tr th.tbl_address {
+      width: 20%; }
+    table.list_contact thead tr th.tbl_selection {
+      width: 36px; }
+    table.list_contact thead tr th.tbl_contact_id {
+      width: 39px; }
+    table.list_contact thead tr th.action {
+      width: 105px; }
+    table.list_contact thead tr th.tbl_phone {
+      width: 67px; }
+  table.list_contact tbody tr td {
+    word-wrap: break-word; }
+    table.list_contact tbody tr td.tbl_contact_id, table.list_contact tbody tr td.tbl_course_code, table.list_contact tbody tr td.tbl_price_purchase {
+      text-align: center; }
+    table.list_contact tbody tr td > a {
+      width: 129px; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:51:30 PM
+    Author     : CHUYEN
+*/
+table.view_report td {
+  text-align: center; }
+table.call-log {
+  table-layout: fixed; }
+  table.call-log th {
+    border: 1px solid rgba(121, 120, 120, 0.39) !important;
+    color: #000;
+    background-color: rgba(88, 90, 90, 0.23); }
+  table.call-log td {
+    border: 1px solid rgba(121, 120, 120, 0.39) !important; }
+  table.call-log th.content-change {
+    width: 20%; }
+table.tbl-note {
+  table-layout: fixed; }
+  table.tbl-note th {
+    background-color: #2d7769; }
+    table.tbl-note th:nth-child(2) {
+      width: 52px; }
+table.filter-contact select, table.filter-contact input[type='text'] {
+  width: 100% !important;
+  padding: 18px 10px; }
+table.table-view-2, table.table-view-1 {
+  table-layout: fixed; }
+  table.table-view-2 tr > td:first-child, table.table-view-1 tr > td:first-child {
+    width: 150px; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:51:58 PM
+    Author     : CHUYEN
+*/
+div.pagination a, div.pagination strong {
+  background: #7fc185;
+  border: 1px solid #7fc185;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  color: #fff;
+  margin-right: 3px; }
+div.pagination strong {
+  background: #1e5f24;
+  border: 1px solid #1e5f24; }
+div.tab-pane {
+  padding-top: 20px; }
+div.google_chart {
+  margin: 0 auto; }
+  div.google_chart > div > div {
+    margin: 0 auto; }
+div.number_paging {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2543b2; }
+div.modal-header {
+  background-color: #0c812d;
+  color: #fff; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:52:16 PM
+    Author     : CHUYEN
+*/
+ul.side-menu > li:hover {
+  background: #0c5b81 !important;
+  color: #fff !important; }
+  ul.side-menu > li:hover i {
+    -webkit-transform: rotate(-360deg); }
+ul.child_menu li:hover a {
+  padding-left: 18px !important; }
+ul > li i {
+  -webkit-transition: all 0.3s ease; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:53:02 PM
+    Author     : CHUYEN
+*/
+.bootstrap-select.btn-group .dropdown-menu li {
+  margin-bottom: 10px; }
+
+.modal {
+  overflow-y: scroll; }
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #EBEBEB;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=style.css.map */

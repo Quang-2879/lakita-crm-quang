@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2017, 2:49:13 PM
+    Author     : CHUYEN
+*/
+
+table{
+    &.list_contact{
+        table-layout: fixed;
+        thead {
+            tr {
+                th{
+                    word-wrap: break-word;
+                    &.tbl_address{
+                        width: 20%;
+                    }
+                    &.tbl_selection_2{
+                        width: 35px;
+                    }
+                    &.tbl_contact_id{
+                        width: 39px;
+                    }
+                    &.action{
+                        width: 105px;
+                    }
+                    &.tbl_phone{
+                        width: 76px;
+                    }
+                    &.tbl_contacts_address, &.tbl_last_note{
+                        width: 18%;
+                    }
+                    &.tbl_course_name_course{
+                        width: 18%;
+                    }
+                    &.tbl_landingpage_code{
+                        width: 20%;
+                    }
+                    &.tbl_campaign_C2pC1, &.tbl_campaign_C3pC2{
+                        background-color: #296880;
+                    }
+                    &.tbl_campaign_pricepC1, &.tbl_campaign_pricepC2, &.tbl_campaign_pricepC3{
+                        background-color: #262085;
+                    }
+                    &.tbl_landingpage_url{
+                        width: 200px;
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    word-wrap: break-word;
+                    height: 75px;
+                    &.tbl_contact_id, &.tbl_course_code, &.tbl_price_purchase{
+                        text-align: center;
+                    }
+                    &>a{
+                        width: 129px;
+                    }
+                    &.tbl_selection{
+                        cursor: pointer;
+                    }
+                    &.tbl_C2pC1, &.tbl_C3pC2 {
+                        background-color: #296880;
+                        color:#fff;
+                    }
+                    &.tbl_pricepC1, &.tbl_pricepC2, &.tbl_pricepC3{
+                        background-color: #262085;
+                        color:#fff;
+                    }
+                    &.tbl_name{
+                        padding-left: 15px;
+                    }
+                }
+
+            }
+        }
+    }
+    &.list_contact_2{
+        th{
+            height: 50px;
+            &:nth-child(1){
+                border-top-left-radius: 10px;
+            }
+            &:last-child{
+                border-top-right-radius: 10px;
+            }
+            &.tbl_selection, &.tbl_contacts_id, &.tbl_course_id{
+                width: 19px;
+            }
+        }
+    }
+}
+
+/*
+tr menu chuột phải
+*/
+.custom_right_menu, .custom_right_menu_item{
+    cursor: pointer;
+}
+
+/*
+các ô selection
+*/
+.tbl_selection{
+    // display: none;
+}
+

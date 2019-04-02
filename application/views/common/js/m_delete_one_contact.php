@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>style/js/manager/delete_one_contact.min.js"></script>

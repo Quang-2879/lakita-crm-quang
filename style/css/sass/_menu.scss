@@ -1,0 +1,218 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 20, 2017, 9:52:01 AM
+    Author     : ChuyenPN
+*/
+
+
+
+/*
+Credits:
+Code snippet by @maridlcrmn (Follow me on Twitter)
+Images by Nike.com (http://www.nike.com/us/en_us/)
+Logo by Sneaker-mission.com (http://www.sneaker-mission.com/)
+*/
+
+
+
+.nav-tabs {
+    display: inline-block;
+    border-bottom: none;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.nav-tabs > li > a, 
+.nav-tabs > li > a:hover, 
+.nav-tabs > li > a:focus, 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: none;
+    border-radius: 0;
+}
+
+.nav-list {
+    padding: 15px;
+    padding-bottom: 25px;
+}
+
+.nav-list > li:last-child { border-right: 0px solid #eee; }
+.nav-list > li > a:hover { text-decoration: none; }
+.nav-list > li > a > span {
+    display: block;
+    line-height: 15px;
+    font-size: 13px;
+}
+
+.mega-dropdown { position: static !important; }
+.mega-dropdown-menu {
+    padding: 20px 15px 15px;
+    text-align: center;
+}
+
+
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+.navbar-nav {
+    padding-left: 15px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #00486c;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(51,79,111);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #428bca;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.mega-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    min-width: 160px;
+    padding: 10px 30px 40px 30px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    list-style: none;
+    background-color: white;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.14902);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.172549) 0px 6px 12px;
+}
+.nav-list > li {
+    border-left:0px;
+    .nav-list {
+        border-bottom: 0px;
+    }
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: white;
+        cursor: default;
+        background-color: #428bca;
+    }
+
+    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+        color: black;
+        cursor: default;
+        background-color: rgb(255, 255, 255);
+        border: solid black 1px;
+    }
+    body
+    {
+        padding-top: 20px;
+    }
+    #myCarousel .nav a small
+    {
+        display: block;
+    }
+    #myCarousel .nav
+    {
+        background: #eee;
+    }
+    .nav-justified > li > a
+    {
+        border-radius: 0px;
+    }
+    .nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
+    .nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
+    .nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+    .nav-pills>li[data-slide-to="3"].active a { background-color: #8e44ad; }
+}
+
+.top_nav {
+    .mega-dropdown{
+        .dropdown-menu {
+            right: 100px;
+            li {
+                width: 100px;
+                img{
+                    width: 50px;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                    display: block;
+                }
+                span{
+                    /*                    font-size: 12px;*/
+                }
+            }
+        }
+    }
+
+
+    .navbar-nav {
+        background: rgb(24, 117, 51);
+        a.logo, a.logo:hover{
+            display: inline-block;
+            float: left;
+            margin-top: 1px;
+        }
+    }
+    
+    .nav_menu{
+        nav{
+            .navbar-nav{
+                li.content_noti{
+                    a{
+                            padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+}

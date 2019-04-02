@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>style/js/real_search.min.js"></script>
