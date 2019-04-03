@@ -37,8 +37,6 @@ class Marketers extends MY_Table {
 
         $this->load->model('campaign_model');
 
-
-
     }
 
 
@@ -155,6 +153,16 @@ class Marketers extends MY_Table {
 
             ),
 
+            'targets' => array(
+
+                'name_display' => 'KPI',
+
+                'order' => '1',
+
+                'display' => 'none'
+
+            )
+
         );
 
         $this->set_list_view($list_view);
@@ -162,7 +170,6 @@ class Marketers extends MY_Table {
         $this->set_model('staffs_model');
 
     }
-
 
 
     protected function show_table() {
@@ -320,7 +327,6 @@ class Marketers extends MY_Table {
         $this->data['channel'] = $channels;
 
 
-
         $this->list_filter = array(
 
             'left_filter' => array(
@@ -421,6 +427,10 @@ class Marketers extends MY_Table {
 
                     'type' => 'password'
 
+                ),
+
+                'targets' => array(
+                    
                 )
 
             ),
@@ -477,7 +487,7 @@ class Marketers extends MY_Table {
 
             }
 
-            $paramArr = array('username', 'name', 'email', 'phone', 'active');
+            $paramArr = array('username', 'name', 'email', 'phone', 'active', 'targets');
 
             foreach ($paramArr as $value) {
 
