@@ -1696,6 +1696,7 @@ class Manager extends MY_Controller {
         // print_r($total);
         // echo '</pre>';
         // die();
+
         $progress = [];
         $inputContact = array();
         $inputContact['select'] = 'id';
@@ -1721,6 +1722,7 @@ class Manager extends MY_Controller {
             'type' => 'L6');
         $progress['sale']['progress'] = round($progress['sale']['count'] / $progress['sale']['kpi'] * 100, 2);
 
+        // thêm hàng cod L8
         $inputContact = array();
         $inputContact['select'] = 'id';
         $inputContact['where'] = array('date_receive_lakita >' => strtotime(date('01-m-Y')), 'is_hide' => '0');
@@ -1740,11 +1742,13 @@ class Manager extends MY_Controller {
 
     protected function GetProccessThisMonth() {
 
+        // tính L6,L8 theo thang
         $total = 0;
         $this->load->model('staffs_model');
         $qr = $this->staffs_model->SumKPI();
         $total_month_L6 = round($qr[0]['kpi']*KPI_L6);
         $total_month_L8 = round($total_month_L6*0.9);
+
 
         $progress = [];
         $inputContact = array();
@@ -1753,7 +1757,7 @@ class Manager extends MY_Controller {
         $today = $this->contacts_model->load_all($inputContact);
         $progress['marketing'] = array(
             'count' => count($today),
-            'kpi' =>  $qr[0]['kpi'],
+            'kpi' => $qr[0]['kpi'],
             'name' => 'Marketing',
             'type' => 'C3');
         $progress['marketing']['progress'] = round($progress['marketing']['count'] / $progress['marketing']['kpi'] * 100, 2);
@@ -1779,6 +1783,7 @@ class Manager extends MY_Controller {
             'name' => 'COD',
             'type' => 'L8'
         );
+
         $progress['cod']['progress'] = round($progress['cod']['count'] / $progress['cod']['kpi'] * 100, 2);
 
         return $progress;
